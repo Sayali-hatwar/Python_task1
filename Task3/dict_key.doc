@@ -1,0 +1,21 @@
+## Dictionary method 
+
+-------------------------------------------------------------------
+
+## Key
+
+m1  --> pd1{"Level" : 45}
+
+m2  --> pd2 --> pd1.keys   ## pd2 = pd1.keys stored all the keys of pd1
+
+m3  --> 45                 ## pd2 = 45
+
+--------------------------------------------------------------------
+
+## Update  
+
+m1 ---> sm {"name" : "Sameer Barde"}
+
+m2 ---> sm.update({"Age" : "28"})   ##sm.update() updates the original Dictionary
+
+m3 ---> sm name : Sameer Barde, Age : 28        # sm returns the dictionary with updated values
